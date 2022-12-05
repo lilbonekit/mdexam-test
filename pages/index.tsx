@@ -1,5 +1,4 @@
-import type { FC } from 'react'
-
+import type { NextPage } from 'next'
 import Introduction from '@/views/Introduction'
 import Reasons from '@/views/Reasons'
 import Together from '@/views/Together'
@@ -10,7 +9,7 @@ import Process from '@/views/Process'
 import Guarantee from '@/views/Guarantee'
 import FAQ from '@/views/FAQ'
 
-const Home: FC = () => {
+const Home: NextPage = () => {
   return (
     <>
       <Introduction />

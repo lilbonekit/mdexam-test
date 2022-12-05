@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 import ProgressBar from 'react-progressbar-on-scroll'
 import SEOSupport from '@/components/seo-support'
 import Layout from '@/layout/index'
+
 import '@/styles/globals.css'
 import 'swiper/css/bundle'
 

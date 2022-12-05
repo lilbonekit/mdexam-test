@@ -1,9 +1,7 @@
 import type { FC, ReactNode } from 'react'
-
-// Import Swiper React components
 import { Swiper } from 'swiper/react'
 import { Pagination } from 'swiper'
-// Import Swiper styles
+
 import 'swiper/css'
 import 'swiper/css/pagination'
 
