@@ -10,7 +10,7 @@ const Footer: FC = () => {
       <Container className="flex flex-col items-center gap-20">
         <Script src="https://static.legitscript.com/seals/11058625.js"></Script>
         <Link href="https://legitscript.com" target={'_blank'} title="Verify LegitScript Approval">
-          <Image src="/assets/images/certified.png" alt="no img" width={140} height={120} />
+          <Image src="https://static.legitscript.com/seals/11058625.png" alt="no img" width={140} height={120} />
         </Link>
         <p className="text-center text-[#37465A] text-[0.8669rem] leading-[1.375rem]">
           MD Exam Copyright © 2022. All rights reserved.
