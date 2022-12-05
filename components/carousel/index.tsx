@@ -23,12 +23,12 @@ const Carousel: FC<IProps> = props => {
         clickable: true,
       }}
       loop={true}
-      centeredSlides={true}
       modules={[Pagination]}
       className={`${className}`}
       breakpoints={{
         0: {
           slidesPerView: 1,
+          centeredSlides: false,
         },
         640: {
           slidesPerView: 2,
@@ -36,6 +36,7 @@ const Carousel: FC<IProps> = props => {
         },
         768: {
           slidesPerView: 3,
+          centeredSlides: true,
         },
       }}
     >

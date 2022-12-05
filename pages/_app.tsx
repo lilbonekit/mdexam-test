@@ -10,7 +10,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <SEOSupport title="MD Exam | Lose Weight Feel Great" description="MD Exam is a 50 state telemedicine clinic specializing in weight loss." />
-      <ProgressBar />
+      <ProgressBar color="#2a9d8f" />
       <Layout>
         <Component {...pageProps} />
       </Layout>

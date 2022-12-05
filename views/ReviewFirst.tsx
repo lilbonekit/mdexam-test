@@ -15,7 +15,7 @@ const ReviewFirst: FC = () => {
         <div className="absolute bottom-0 w-full h-[2px] bg-black" />
       </div>
       <Carousel className="mt-24">
-        <SwiperSlide>
+        <SwiperSlide className="select-none">
           <div className="flex flex-col items-center rounded-[20px] pt-0 px-2.5 pb-[15px] shadow-[0_8px_30px_-7px_#c9dff0] w-[280px]">
             <Image src="/assets/images/customer1.png" className="rounded-full shadow-[0_8px_20px_-4px_#95abbb]" width={60} height={60} alt="no img" />
             <p className="mt-[30px] text-secondary text-[20px] font-bold">Ronne Galle</p>
@@ -25,7 +25,7 @@ const ReviewFirst: FC = () => {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="select-none">
           <div className="flex flex-col items-center rounded-[20px] pt-0 px-2.5 pb-[15px] shadow-[0_8px_30px_-7px_#c9dff0] w-[280px]">
             <Image src="/assets/images/customer2.png" className="rounded-full shadow-[0_8px_20px_-4px_#95abbb]" width={60} height={60} alt="no img" />
             <p className="mt-[30px] text-secondary text-[20px] font-bold">Missy Limana</p>
@@ -35,7 +35,7 @@ const ReviewFirst: FC = () => {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="select-none">
           <div className="flex flex-col items-center rounded-[20px] pt-0 px-2.5 pb-[15px] shadow-[0_8px_30px_-7px_#c9dff0] w-[280px]">
             <Image src="/assets/images/customer3.png" className="rounded-full shadow-[0_8px_20px_-4px_#95abbb]" width={60} height={60} alt="no img" />
             <p className="mt-[30px] text-secondary text-[20px] font-bold">Martha Brown</p>
@@ -45,7 +45,7 @@ const ReviewFirst: FC = () => {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="select-none">
           <div className="flex flex-col items-center rounded-[20px] pt-0 px-2.5 pb-[15px] shadow-[0_8px_30px_-7px_#c9dff0] w-[280px]">
             <Image src="/assets/images/customer4.png" className="rounded-full shadow-[0_8px_20px_-4px_#95abbb]" width={60} height={60} alt="no img" />
             <p className="mt-[30px] text-secondary text-[20px] font-bold">Hanna Lisem</p>
