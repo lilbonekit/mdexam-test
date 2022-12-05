@@ -39,7 +39,7 @@ const Layout: FC<IProps> = ({ children }) => {
         title="Go To Top"
         width={64}
         height={64}
-        className={`${isShowTop ? 'visible' : 'hidden'} fixed z-90 bottom-8 right-8 rounded-full shadow-2xl cursor-pointer`}
+        className={`${isShowTop ? 'visible' : 'hidden'} fixed z-90 bottom-8 right-8 rounded-full shadow-2xl cursor-pointer z-50`}
       />
     </>
   )

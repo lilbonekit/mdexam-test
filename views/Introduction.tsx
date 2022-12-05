@@ -4,13 +4,13 @@ import Container from '@/components/container'
 
 const Introduction: FC = () => {
   return (
-    <Container className="mt-10 flex flex-col items-center">
-      <p className="text-primary text-center text-md font-bold">
+    <Container className="md:mt-10 flex flex-col items-center">
+      <p className="text-primary text-center text-base sm:text-md font-bold">
         If You’ve Been Struggling To Lose The Same 15-20 LBs In The Last 5 Years,
         <br />
         There’s PROOF It Isn’t Your Fault…
       </p>
-      <p className="mt-6 text-primary text-center text-xl font-bold">
+      <p className="mt-6 text-primary text-center text-[30px] sm:text-xl leading-10 font-bold">
         Discover The Doctor-Approved Methods Used For Decades To Help Patients Melt Fat And Feel Great In Their Bodies Without Crash Dieting Or
         Intense Exercise.
       </p>

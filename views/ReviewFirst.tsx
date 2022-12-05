@@ -11,7 +11,7 @@ const ReviewFirst: FC = () => {
       <p className="text-secondary text-[16px] font-bold">PRODUCT REVIEW</p>
       <div className="mt-4 relative py-4 w-full">
         <div className="absolute top-0 w-full h-[1.5px] bg-black" />
-        <p className="text-xl font-bold">Why do our customers love with us?</p>
+        <p className="text-[30px] leading-10 sm:text-xl font-bold">Why do our customers love with us?</p>
         <div className="absolute bottom-0 w-full h-[2px] bg-black" />
       </div>
       <Carousel className="mt-24">
@@ -57,7 +57,7 @@ const ReviewFirst: FC = () => {
         </SwiperSlide>
       </Carousel>
       <Link href="https://app.mdexam.com/intake/firstname" target={'_blank'} className="mt-8">
-        <button className="w-[448px] h-[58px] rounded-[7px] bg-primary hover:bg-secondary">
+        <button className="w-[350px] h-[68px] sm:w-[448px] sm:h-[58px] rounded-[7px] bg-primary hover:bg-secondary">
           <span className="text-white text-[16px] font-bold">Click here to see if you&apos;re a good fit for our programs</span>
         </button>
       </Link>

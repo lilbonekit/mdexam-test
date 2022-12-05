@@ -7,7 +7,7 @@ interface IProps {
 
 const Container: FC<IProps> = props => {
   const { children, className } = props
-  return <div className={`max-w-primary mx-auto text-base ${className}`}>{children}</div>
+  return <div className={`max-w-full px-5 lg:max-w-lg lg:px-0 mx-auto text-base ${className}`}>{children}</div>
 }
 
 Container.defaultProps = {

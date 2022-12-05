@@ -5,7 +5,7 @@ const Reasons: FC = () => {
   const NumberPad = (number: number): ReactElement => (
     <div className="relative flex-none w-[53px]">
       <div className="w-[1.5px] h-full bg-black mx-auto" />
-      <div className="absolute top-0 w-full h-[53px] rounded-full bg-primary flex justify-center items-center">
+      <div className="static sm:absolute top-0 w-full h-[53px] rounded-full bg-primary flex justify-center items-center">
         <p className="text-white text-[1.4955rem] leading-[2.4375rem] font-bold">{number}</p>
       </div>
     </div>
@@ -14,12 +14,14 @@ const Reasons: FC = () => {
   return (
     <Container className="mt-20 flex flex-col">
       <p className="text-secondary text-center text-[16px] font-bold">REASONS</p>
-      <p className="mt-4 text-center text-xl font-bold">Here are the 4 major factors we found plaguing people trying to lose weight:</p>
+      <p className="mt-4 text-center text-[30px] leading-10 sm:text-xl font-bold">
+        Here are the 4 major factors we found plaguing people trying to lose weight:
+      </p>
       <div className="mt-12">
-        <div className="flex gap-8 w-full">
+        <div className="flex flex-col sm:flex-row items-center sm:items-stretch gap-4 sm:gap-8 w-full">
           {NumberPad(1)}
           <div className="mb-20 grow flex flex-col gap-8">
-            <p className="mt-3 text-lg font-bold">A Lack of Know-How</p>
+            <p className="mt-3 text-lg font-bold text-center sm:text-left">A Lack of Know-How</p>
             <p>The least complicated but arguably the biggest issue is a lack of knowledge about proper eating, exercise, and self-care habits.</p>
             <p>While the internet is a powerful tool, far too much weight loss information is either incomplete or just flat-out wrong.</p>
             <div className="relative flex flex-col items-center">
@@ -62,10 +64,10 @@ const Reasons: FC = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-8 w-full">
+        <div className="flex flex-col sm:flex-row items-center sm:items-stretch gap-4 sm:gap-8 w-full">
           {NumberPad(2)}
           <div className="mb-24 grow flex flex-col gap-8">
-            <p className="mt-3 text-lg font-bold">A Lack of Time</p>
+            <p className="mt-3 text-lg font-bold text-center sm:text-left">A Lack of Time</p>
             <p>There’s no surprise why so many people can’t find the time to take care of themselves.</p>
             <p>Most of our clients, like yourself, have families.</p>
             <p>They have children to take care of, relationships with spouses to tend to, and on top of that, work full-time jobs.</p>
@@ -111,10 +113,10 @@ const Reasons: FC = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-8 w-full">
+        <div className="flex flex-col sm:flex-row items-center sm:items-stretch gap-4 sm:gap-8 w-full">
           {NumberPad(3)}
           <div className="mb-16 grow flex flex-col gap-8">
-            <p className="mt-3 text-lg font-bold">Hormonal Imbalances</p>
+            <p className="mt-3 text-lg font-bold text-center sm:text-left">Hormonal Imbalances</p>
             <p>Remember when I said it wasn’t your fault that you’re struggling to lose weight?</p>
             <p>In this case, it REALLY isn’t your fault.</p>
             <p>Our bodies are complicated systems that can become fussy as we age.</p>
@@ -147,10 +149,10 @@ const Reasons: FC = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-8 w-full">
+        <div className="flex flex-col sm:flex-row items-center sm:items-stretch gap-4 sm:gap-8 w-full">
           {NumberPad(4)}
           <div className="mb-8 grow flex flex-col gap-8">
-            <p className="mt-3 text-lg font-bold">Lifestyle Changes</p>
+            <p className="mt-3 text-lg font-bold text-center sm:text-left">Lifestyle Changes</p>
             <p>We’ve touched on this a little earlier, but lifestyle changes are a significant part of weight gain terrorizing Americans.</p>
             <p>
               Maybe it was the pandemic that shifted your whole life.

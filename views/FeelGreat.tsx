@@ -7,7 +7,7 @@ const FeelGreat: FC = () => {
     <Container className="mt-20">
       <div className="relative py-4">
         <div className="absolute top-0 w-full h-[1.5px] bg-black" />
-        <p className="text-center text-xl font-bold">
+        <p className="text-center text-[30px] leading-10 sm:text-xl font-bold">
           Welcome To MD Exam
           <br />
           Your Chance To Finally Lose Weight & Feel Great
@@ -15,8 +15,14 @@ const FeelGreat: FC = () => {
         <div className="absolute bottom-0 w-full h-[2px] bg-black" />
       </div>
       <div className="mt-10">
-        <div className="flex gap-3">
-          <Image className="flex-none rounded-lg" src="/assets/images/feelgreat.png" alt="no img" width={401} height={282} />
+        <div className="flex flex-col md:flex-row items-center md:items-stretch gap-6 md:gap-3">
+          <Image
+            className="flex-none rounded-lg lg:w-[401px] lg:h-[282px] w-[350px] h-[250px]"
+            src="/assets/images/feelgreat.png"
+            alt="no img"
+            width={401}
+            height={282}
+          />
           <div className="grow flex flex-col gap-6">
             <p>
               MD Exam is a telehealth service specializing in safe and effective medical weight loss tactics that cater to your specific body type.

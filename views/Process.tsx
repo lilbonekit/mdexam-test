@@ -9,20 +9,20 @@ const Process: FC = () => {
       <p className="text-center text-secondary text-[16px] font-bold">PROCESS</p>
       <div className="mt-4 relative py-4 w-full">
         <div className="absolute top-0 w-full h-[1.5px] bg-black" />
-        <p className="text-center text-xl font-bold">Here&apos;s How It Works</p>
+        <p className="text-center text-[30px] leading-10 sm:text-xl font-bold">Here&apos;s How It Works</p>
         <div className="absolute bottom-0 w-full h-[2px] bg-black" />
       </div>
       <div className="mt-16 flex flex-col gap-20">
-        <div className="flex gap-14">
+        <div className="flex flex-col md:flex-row items-center md:items-stretch gap-14">
           <Image
-            className="order-1 flex-none w-[449px] h-[228px] rounded-[0.4375rem] object-cover object-center"
+            className="order-1 flex-none rounded-[0.4375rem] object-cover object-center lg:w-[449px] lg:h-[228px] w-[360px] h-[228px]"
             src="/assets/images/worker1.png"
             alt="no img"
             width={449}
             height={228}
           />
-          <div className="order-2 grow flex flex-col gap-5">
-            <p className="text-lg font-bold">1. Fill Out The Online Form</p>
+          <div className="order-2 grow flex flex-col gap-5 items-center md:items-start">
+            <p className="text-lg text-center font-bold">1. Fill Out The Online Form</p>
             <p>
               We’re about efficiency here. So the quickest way to help you lose weight is by getting crystal clear in our online form. Filling that
               out in detail will make it easier for us to prescribe the right treatment plan for you.
@@ -30,31 +30,31 @@ const Process: FC = () => {
             <div className="h-[1px] w-[225px] bg-black" />
           </div>
         </div>
-        <div className="flex gap-14">
+        <div className="flex flex-col md:flex-row items-center md:items-stretch gap-14">
           <Image
-            className="order-2 flex-none w-[449px] h-[228px] rounded-[0.4375rem] object-cover object-center"
+            className="order-1 md:order-2 flex-none rounded-[0.4375rem] object-cover object-center lg:w-[449px] lg:h-[228px] w-[360px] h-[228px]"
             src="/assets/images/worker2.png"
             alt="no img"
             width={449}
             height={228}
           />
-          <div className="order-1 grow flex flex-col gap-5">
-            <p className="text-lg font-bold">2. Book A Consultation</p>
+          <div className="order-2 md:order-1 grow flex flex-col gap-5 items-center md:items-start">
+            <p className="text-lg text-center font-bold">2. Book A Consultation</p>
             <p>When your form is approved, you’ll be able to book a time with one of our medical providers almost instantly.</p>
             <p>(If you’ve got a busy schedule, no problem! We’re flexible and can get you on a call within the same week.)</p>
             <div className="h-[1px] w-[225px] bg-black" />
           </div>
         </div>
-        <div className="flex gap-14">
+        <div className="flex flex-col md:flex-row items-center md:items-stretch gap-14">
           <Image
-            className="order-1 flex-none w-[449px] h-[228px] rounded-[0.4375rem] object-cover object-center"
+            className="order-1 flex-none rounded-[0.4375rem] object-cover object-center lg:w-[449px] lg:h-[228px] w-[360px] h-[228px]"
             src="/assets/images/worker3.png"
             alt="no img"
             width={449}
             height={228}
           />
-          <div className="order-2 grow flex flex-col gap-5">
-            <p className="text-lg font-bold">3. Meet With Your Provider</p>
+          <div className="order-2 grow flex flex-col gap-5 items-center md:items-start">
+            <p className="text-lg text-center font-bold">3. Meet With Your Provider</p>
             <p>
               From the comfort of your home, you’ll chat with a provider who’ll review your medical history and answer any questions about weight loss
               or our programs.
@@ -66,16 +66,16 @@ const Process: FC = () => {
             <div className="h-[1px] w-[225px] bg-black" />
           </div>
         </div>
-        <div className="flex gap-14">
+        <div className="flex flex-col md:flex-row items-center md:items-stretch gap-14">
           <Image
-            className="order-2 flex-none w-[449px] h-[228px] rounded-[0.4375rem] object-cover object-center"
+            className="order-1 md:order-2 flex-none rounded-[0.4375rem] object-cover object-center lg:w-[449px] lg:h-[228px] w-[360px] h-[228px]"
             src="/assets/images/worker4.png"
             alt="no img"
             width={449}
             height={228}
           />
-          <div className="order-1 grow flex flex-col gap-5">
-            <p className="text-lg font-bold">4. Medication Delivered To Your Door</p>
+          <div className="order-2 md:order-1 grow flex flex-col gap-5 items-center md:items-start">
+            <p className="text-lg text-center font-bold">4. Medication Delivered To Your Door</p>
             <p>
               You can get your Rx mailed straight from one of our partner pharmacies, so you never have to worry about picking up your prescription on
               time.
@@ -83,16 +83,16 @@ const Process: FC = () => {
             <div className="h-[1px] w-[225px] bg-black" />
           </div>
         </div>
-        <div className="flex gap-14">
+        <div className="flex flex-col md:flex-row items-center md:items-stretch gap-14">
           <Image
-            className="order-1 flex-none w-[449px] h-[228px] rounded-[0.4375rem] object-cover object-center"
+            className="order-1 flex-none rounded-[0.4375rem] object-cover object-center lg:w-[449px] lg:h-[228px] w-[360px] h-[228px]"
             src="/assets/images/worker5.png"
             alt="no img"
             width={449}
             height={228}
           />
-          <div className="order-2 grow flex flex-col gap-5">
-            <p className="text-lg font-bold">5. Start your journey</p>
+          <div className="order-2 grow flex flex-col gap-5 items-center md:items-start">
+            <p className="text-lg text-center font-bold">5. Start your journey</p>
             <p>
               Your Rx, exercise plan, nutrition tracker, and wellness check-ins combine to help you lose weight and keep it off for good. With all the
               right tools in your hands, this process will not only be manageable, but it’ll be enjoyable once you start seeing results.
@@ -100,16 +100,16 @@ const Process: FC = () => {
             <div className="h-[1px] w-[225px] bg-black" />
           </div>
         </div>
-        <div className="flex gap-14">
+        <div className="flex flex-col md:flex-row items-center md:items-stretch gap-14">
           <Image
-            className="order-2 flex-none w-[449px] h-[228px] rounded-[0.4375rem] object-cover object-center"
+            className="order-1 md:order-2 flex-none rounded-[0.4375rem] object-cover object-center lg:w-[449px] lg:h-[228px] w-[360px] h-[228px]"
             src="/assets/images/worker6.png"
             alt="no img"
             width={449}
             height={228}
           />
-          <div className="order-1 grow flex flex-col gap-5">
-            <p className="text-lg font-bold">6. Check in with your provider</p>
+          <div className="order-2 md:order-1 grow flex flex-col gap-5 items-center md:items-start">
+            <p className="text-lg text-center font-bold">6. Check in with your provider</p>
             <p>Congratulations! You’re well on your way to your dream body and lifestyle.</p>
             <p>
               Along the way, you’ll be able to chat with your provider whenever you have questions or have something you’re struggling with. The

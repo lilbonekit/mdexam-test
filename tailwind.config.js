@@ -16,7 +16,8 @@ module.exports = {
         md: ['1.2384rem', '1.875rem'],
       },
       maxWidth: {
-        primary: '960px',
+        lg: '960px',
+        md: '768px',
       },
       animation: {
         'toggle-visible': 'toggleVisible 1s ease-in-out',

@@ -26,6 +26,18 @@ const Carousel: FC<IProps> = props => {
       centeredSlides={true}
       modules={[Pagination]}
       className={`${className}`}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        640: {
+          slidesPerView: 2,
+          centeredSlides: false,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+      }}
     >
       {children}
     </Swiper>

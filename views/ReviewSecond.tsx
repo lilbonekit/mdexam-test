@@ -11,7 +11,7 @@ const ReviewSecond: FC = () => {
       <p className="text-secondary text-[16px] font-bold">PRODUCT REVIEW</p>
       <div className="mt-4 relative py-4 w-full">
         <div className="absolute top-0 w-full h-[1.5px] bg-black" />
-        <p className="text-xl font-bold">Why do our customers love with us?</p>
+        <p className="text-[30px] leading-10 sm:text-xl font-bold">Why do our customers love with us?</p>
         <div className="absolute bottom-0 w-full h-[2px] bg-black" />
       </div>
       <Carousel className="mt-24">
